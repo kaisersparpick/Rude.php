@@ -1,0 +1,23 @@
+{
+    "name": "kaiser/rude",
+    "description": "An implementation of the rule-based control-flow pattern Rude.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kaiser Sparpick",
+            "email": "kaisersparpick@gmail.com"
+        }
+    ],
+    "keywords": ["control-flow", "rules", "design pattern"],
+    "homepage": "https://github.com/kaisersparpick/Rude",
+    "autoload": {
+        "psr-4": {
+            "Kaiser\\Rude\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {}
+}
